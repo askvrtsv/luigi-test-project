@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "newproducts"
+version = "0.1.0"
+description = ""
+authors = ["Anton Skvortsov <askvrtsv@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+luigi = "^3.5.0"
+openpyxl = "^3.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
